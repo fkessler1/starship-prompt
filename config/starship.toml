@@ -67,11 +67,11 @@ show_notifications = true
 min_time_to_notify = 60_000
 
 [directory]
-truncation_length = 1
+truncation_length = 5
 format = "[](blue) [$path]($style)[$read_only]($read_only_style)"
 read_only = " "
 truncation_symbol = ""
-fish_style_pwd_dir_length = 0
+fish_style_pwd_dir_length = 3
 style = "bold #50fa7b"
 
 [git_branch]
@@ -133,7 +133,7 @@ style = "bright-blue bold"
 format = " at [$output]($style)"
 
 [hostname]
-disabled = false
+disabled = true
 
 [java]
 style="green dimmed"
