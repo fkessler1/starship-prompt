@@ -1,11 +1,7 @@
 # starship-prompt
 
 1. install Starship  https://starship.rs/
-```
-curl -sS https://starship.rs/install.sh | sh
-```
-
-
+   Read Instructions for your Shell ( bash | zsh | fish )
 
 2. Clone Repository
 ```
